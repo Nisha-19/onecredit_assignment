@@ -1,0 +1,15 @@
+~$ gcc Openmatrix.c -o Openmatrix
+~$ ./Openmatrix
+sh: 1: cls: not found
+enter the number of row=3
+enter the number of column=3
+enter the first matrix element=
+2 2 2 2 2 2 2 2 2    
+enter the second matrix element=
+3 3 4 4 4 5 5 5 6
+Resultant matrix=
+24      24      30
+24      24      30
+24      24      30
+
+time required to run 0.000083~$ 
