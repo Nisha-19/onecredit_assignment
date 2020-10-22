@@ -29,7 +29,9 @@ scanf("%d",&secondMatrix[i][j]);
 gettimeofday(&t0, 0);
 
     
-printf("Resultant matrix=\n");    
+printf("Resultant matrix=\n");   
+
+#pragma omp parallel for
 for(i=0;i<row;i++)    
 {    
 for(j=0;j<column;j++)    
